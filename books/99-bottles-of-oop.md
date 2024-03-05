@@ -9,6 +9,9 @@
 - [Achieving openness](#achieving-openness)
 - [Afterword](#afterword)
 
+> [!CAUTION]
+> asd
+![alt text](image.png)
 ## Introduction
 
 The book is about writing cost-effective, maintainable, and pleasing code.
@@ -39,6 +42,8 @@ The best solution for most problems lies not at the extreme of this continuum, b
 > Methods are _defined_, and messages are _sent_.
 >
 > The confusion between these terms comes about because it is common for the receiver of a message to define a method whose name exactly corresponds to that message. The `song` method sends the `verses` _message_ to `self`, which results in an invocation of the `verses` method.
+
+    asdf
 
 Writing code is like writing a book; your efforts are for _other_ readers.
 
