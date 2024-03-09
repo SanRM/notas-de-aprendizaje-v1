@@ -1,0 +1,64 @@
+{%- comment -%}
+  Include as: {%- include components/sidebar.html -%}
+  Depends on: page(?), site.
+  Results in: HTML for the side bar.
+  Includes:
+    title.html, components/site_nav.html, nav_footer_custom.html
+  Overwrites:
+    nav_footer_custom.
+  Should not be cached, because nav_footer_custom.html might depend on page.
+{%- endcomment -%}
+
+<div class="side-bar">
+  <div class="site-header" role="banner">
+
+    
+    <a href="{{ '/' | relative_url }}" class="site-title lh-tight"> 
+      
+      <img src="https://github.com/SanRm.png" width="32" height="32" alt="SanRm" style="margin-right: 10px; border-radius: 25%;">
+
+      Notas
+      
+    </a>
+    
+    <button id="menu-button" class="site-button btn-reset" aria-label="Toggle menu" aria-pressed="false">
+      <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
+    </button>
+  </div>
+
+  {% include_cached components/site_nav.html %}
+
+  {% capture nav_footer_custom %}
+    {%- include nav_footer_custom.html -%}
+  {% endcapture %}
+  {% if nav_footer_custom != "" %}
+    {{ nav_footer_custom }}
+  {% else %}
+  
+    <footer class="site-footer">
+      <!-- This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll. -->
+    
+      <!-- <button class="btn js-toggle-dark-mode" style="width: 100%; height: 100%; text-align: left;">Modo claro</button> -->
+   
+      
+      <script>
+
+        const toggleLightMode = document.querySelector('.js-toggle-dark-mode');
+    
+        jtd.addEvent(toggleLightMode, 'click', function(){
+            if (jtd.getTheme() === 'light') {
+                jtd.setTheme('dark');
+                toggleLightMode.textContent = 'Modo claro';
+                console.log('dark mode');
+            } else {
+                jtd.setTheme('light');
+                toggleLightMode.textContent = 'Modo oscuro';
+                console.log('light mode');
+            }
+        });
+
+      </script>
+
+    </footer>
+  {% endif %}
+</div>
