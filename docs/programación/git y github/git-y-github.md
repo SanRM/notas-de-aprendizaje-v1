@@ -3,6 +3,7 @@ layout: default
 title: Git y Github
 parent: Programación
 has_children: true
+nav_exclude: true
 ---
 
 **Git y Github**

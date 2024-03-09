@@ -5,77 +5,47 @@ parent: Git y Github
 grand_parent: Programación
 ---
 
-<div class="code-example" markdown="1">
+# Merge
 
-**Pruebas unitarias**
-{: .main-title }
+Created: January 23, 2024 5:01 PM
+Topic: Git y Github
 
-{: .label .label-green style="margin-top: 1.2em"}
-Flutter / dart
 
-{: .rojo}
-Se recomienda que las pruebas unitarias sean creadas dentro de la carpeta ‘test’ en la raíz del proyecto para mantener un diseño limpio y ordenado
+<div class="code-example" markdown="1" style="padding-top: 1em; gap: 1em; display: flex; justify-content: center; align-items: center; flex-direction: column;">
 
-- Las pruebas unitarias son una de las formas más comunes de testing y se usan para verificar el correcto funcionamiento de unidades individuales de código como funciones, métodos o clases. El propósito principal de las pruebas unitarias es asegurar que cada parte aislada del código (unidad) realice las tareas previstas de manera adecuada.
+### **El comando "git merge" se utiliza para combinar cambios de una rama en otra.** 
+Inicialmente tendremos un repositorio con dos ramas, `main` y `bugFix`. `main` es la rama principal y `bugFix` es una rama que se creó para corregir un error.
 
----
+```mermaid
+    %%{init: { 'theme':'dark' } }%%
+    flowchart TD
+    
+    A(C2) --> B(C1)
+    X([main]) -->A
 
-{: .label .label-pink style="margin-bottom: 1.5em"}
-Ejemplo
+    C(C3) --> B(C1)
+    Y([bugFix]) -->C
 
-```dart
-import 'package:flutter_test/flutter_test.dart';
-import 'package:unit_test/counter.dart';
-
-class Counter {
-
-  int value = 0;
-  Counter({this.value = 0});
-
-  void increment() => value++;
-
-  void decrement() => value--;
-
-  void reset() => value = 0;
-
-}
-
-void main() {
-  
-  Counter counter;
-  group(
-
-    'Group of tests for the counter -',
-
-    () {
-
-      test(
-        'Testing the increment counter',
-        () => {
-          //setup
-          counter = Counter(value: 1),
-          //do
-          counter.increment(),
-          //test
-          expect(counter.value, 2)
-        },
-      );
-
-      test(
-        'Testing the decrement counter',
-        () => {
-          //setup
-          counter = Counter(value: 10),
-          //do
-          counter.decrement(),
-          //test
-          expect(counter.value, 9)
-        },
-      );
-
-    },
-  );
-}
+    B --> C0
 ```
 
+```markdown
+Git merge bugFix
+```
 </div>
+
+![Untitled](Merge%20e69df18e01e649de851dc2f46b5e90a4/Untitled%201.png)
+
+Para actualizar la posición de `bugFix` a `main` se debe usar:
+
+```dart
+Git checkout bugFix
+
+Git merge main
+```
+
+![Untitled](Merge%20e69df18e01e649de851dc2f46b5e90a4/Untitled%202.png)
+
+Como `bugFix` ya era un ancestro de `main`, git no tuvo que hacer ningún trabajo, solamente se movió `bugFix` al mismo commit en el que estaba posicionado main.
+
+Ahora todas las ramas contienen el trabajo que hay en el repositorio.
