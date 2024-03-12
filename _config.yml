@@ -124,9 +124,9 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # Back to top link
 back_to_top: true
-back_to_top_text: "Ir al inicio de la nota ↑" 
+back_to_top_text: "Ir al inicio de la página actual" 
 
-footer_content: "Notas de aprendizaje - Santiago Rodriguez Morales - 2024."
+footer_content: "Notas - Santiago Rodriguez Morales"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter

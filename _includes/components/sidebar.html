@@ -38,26 +38,16 @@
     <footer class="site-footer">
       <!-- This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll. -->
     
-      <!-- <button class="btn js-toggle-dark-mode" style="width: 100%; height: 100%; text-align: left;">Modo claro</button> -->
-   
+      {% if site.back_to_top %}
+      <p><a href="#top" id="back-to-top">
+        {{ site.back_to_top_text }}
+      </a></p>
       
-      <script>
+    {% endif %}
 
-        const toggleLightMode = document.querySelector('.js-toggle-dark-mode');
-    
-        jtd.addEvent(toggleLightMode, 'click', function(){
-            if (jtd.getTheme() === 'light') {
-                jtd.setTheme('dark');
-                toggleLightMode.textContent = 'Modo claro';
-                console.log('dark mode');
-            } else {
-                jtd.setTheme('light');
-                toggleLightMode.textContent = 'Modo oscuro';
-                console.log('light mode');
-            }
-        });
-
-      </script>
+    {%- if site.footer_content -%}
+      <p class="text-small text-grey-dk-100 mb-0">{{ site.footer_content }}</p>
+    {%- endif -%}
 
     </footer>
   {% endif %}

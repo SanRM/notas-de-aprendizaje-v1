@@ -132,7 +132,3 @@ Si tuviéramos que desarrollar el login de una aplicación normal deberíamos te
 1. y otro que sea capaz de manejar el estado del formulario y enviando los datos al backend y verificar si las credenciales son correctas o no para luego notificar el bloc de autenticación.
 
 </div>
-
-
-
-
