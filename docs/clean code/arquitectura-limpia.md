@@ -2,7 +2,6 @@
 layout: default
 title: Arquitectura limpia
 parent: Clean code
-grand_parent: Programación
 ---
 
 **Arquitectura limpia** 

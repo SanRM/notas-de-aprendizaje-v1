@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Dart
-parent: Programación
 has_children: true
 ---
 

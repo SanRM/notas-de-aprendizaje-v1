@@ -2,7 +2,7 @@
 layout: default
 title: Bloc
 parent: Gestión de estados
-grand_parent: Programación
+grand_parent: Dart
 ---
 
 **Business Logic Components - BLOC**

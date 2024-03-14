@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Clean code
-parent: Programación
 has_children: true
 ---
 

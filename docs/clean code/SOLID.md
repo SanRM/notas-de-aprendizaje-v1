@@ -2,7 +2,6 @@
 layout: default
 title: Solid
 parent: Clean code
-grand_parent: Programación
 ---
 
 **S.O.L.I.D**

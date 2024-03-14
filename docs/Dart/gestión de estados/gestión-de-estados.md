@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Gestión de estados
-parent: Programación
+parent: Dart
 has_children: true
+nav_order: 1
 ---
 
 **Gestión de estados**

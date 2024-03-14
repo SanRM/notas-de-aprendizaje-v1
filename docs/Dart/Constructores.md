@@ -2,7 +2,6 @@
 layout: default
 title: Constructores
 parent: Dart
-grand_parent: Programación
 ---
 
 **Constructores**

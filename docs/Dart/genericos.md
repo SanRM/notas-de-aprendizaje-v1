@@ -2,7 +2,6 @@
 layout: default
 title: Genéricos
 parent: Dart
-grand_parent: Programación
 ---
 
 **Genéricos**

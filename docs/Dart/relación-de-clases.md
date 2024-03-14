@@ -2,7 +2,6 @@
 layout: default
 title: Relación de clases
 parent: Dart
-grand_parent: Programación
 ---
 
 **Relación de clases**
