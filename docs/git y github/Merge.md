@@ -7,10 +7,6 @@ grand_parent: Programación
 
 # Merge
 
-Created: January 23, 2024 5:01 PM
-Topic: Git y Github
-
-
 <div class="code-example" markdown="1" style="padding-top: 1em; gap: 1em; display: flex; justify-content: center; align-items: center; flex-direction: column;">
 
 ### **El comando "git merge" se utiliza para combinar cambios de una rama en otra.** 
