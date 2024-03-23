@@ -24,8 +24,9 @@ Presenta un proceso adaptativo, rápido y auto-organizado de desarrollo de produ
 La palabra Scrum viene del famoso juego de rugby y hace referencia a cómo se devuelve un balón que ha salido del campo al terreno del juego de una manera colectiva.
 </div>
 
-<div class="code-example" markdown="1">
+<div class="code-example" markdown="1" style="text-align:center; padding:0px
+">
 
-<img src="scrum.png" alt="Imagén Scrum">
+<img src="https://raw.githubusercontent.com/SanRM/notas-de-aprendizaje/main/docs/metodologias_de_desarrollo/scrum.png" alt="Imagén Scrum">
 
 </div>
