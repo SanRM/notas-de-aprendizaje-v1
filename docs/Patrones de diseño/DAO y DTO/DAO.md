@@ -14,7 +14,6 @@ El propósito principal de este patrón es abstraer y encapsular todas las opera
 
 {: .azul }
 En el contexto de Java, cuando se utiliza el framework Spring Boot con JPA (Java Persistence API), no es necesario implementar manualmente el patrón DAO. 
-
 Spring Boot proporciona una implementación automática de este patrón a través de sus repositorios, lo que simplifica el proceso de acceso a los datos y reduce la cantidad de código que los desarrolladores necesitan escribir.
 
 ## Tabla de contenidos
