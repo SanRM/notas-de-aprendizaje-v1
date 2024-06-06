@@ -12,6 +12,11 @@ El patrón DAO (Data Access Object) es un patrón de diseño que se utiliza en l
 
 El propósito principal de este patrón es abstraer y encapsular todas las operaciones de acceso a los datos para un tipo de datos específico, proporciona una interfaz que oculta los detalles de la implementación de la persistencia de datos en la base de datos.
 
+{: .azul }
+En el contexto de Java, cuando se utiliza el framework Spring Boot con JPA (Java Persistence API), no es necesario implementar manualmente el patrón DAO. 
+
+Spring Boot proporciona una implementación automática de este patrón a través de sus repositorios, lo que simplifica el proceso de acceso a los datos y reduce la cantidad de código que los desarrolladores necesitan escribir.
+
 ## Tabla de contenidos
 {: .no_toc .text-delta }
 
@@ -134,7 +139,7 @@ public abstract class Dao<T> {
 
 <div class="code-example" markdown="1">
 
-- Clase `UserDao` que extiende de `Dao`:
+### Clase `UsuarioDao` que extiende de `Dao`:
 
 ```java
 package com.docudigitalsds.model.database.dao.daoImplementations.gestionUsuarioDao;
