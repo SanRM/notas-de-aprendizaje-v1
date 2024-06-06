@@ -58,6 +58,27 @@ En este ejemplo, `UserDTO` es un objeto que se utiliza para transferir datos de 
 
 </div>
 
+<div class="code-example" markdown="1">
+
+## Diferencia entre un DTO y una clase modelo o entidad:
+
+### DTO (Data Transfer Object):
+
+- Un DTO es un objeto simple que se utiliza para transferir datos entre subsistemas de una aplicación. 
+
+- No contiene ninguna lógica de negocio y solo tiene campos y métodos de acceso (getters y setters). 
+
+- Los DTOs son útiles para serializar y deserializar datos para su transferencia a través de la red como ```JSON``` o ```XML```, y para desacoplar cómo se almacenan los datos de cómo se pasan alrededor de la aplicación.
+
+### Clase Modelo o Entidad: 
+
+Una clase modelo o entidad, por otro lado, es una representación de una entidad en el dominio de negocio. 
+
+Por lo general, contiene lógica de negocio y puede estar vinculada a otras entidades. 
+
+- Por ejemplo, en una aplicación de comercio electrónico, se podría tener una clase ```Product``` que contiene información sobre un producto, como su ```nombre```, ```precio``` y ```descripción```, así como métodos para calcular descuentos, verificar la disponibilidad del inventario, etc.
+
+</div>
 
 Los DTOs son útiles porque permiten que los datos se serialicen y deserialicen fácilmente para su transferencia a través de la red, y también proporcionan una forma de desacoplar cómo se almacenan los datos de cómo se pasan alrededor de la aplicación.
 
