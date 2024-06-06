@@ -2,6 +2,7 @@
 layout: default
 title: DAO (Data Access Object)
 parent: DAO y DTO
+grand_parent: Patrones de diseño
 ---
 
 **DAO (Data Access Object)** 
