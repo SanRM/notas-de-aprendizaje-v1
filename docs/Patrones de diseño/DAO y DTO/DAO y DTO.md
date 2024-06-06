@@ -1,9 +1,11 @@
 ---
 layout: default
-title: DAO Y DTO
+title: DAO y DTO
+has_children: true
+parent: Patrones de diseño
 ---
 
-**DAO y DTO**
+**DAO vs DTO**
 {: .main-title }
 
 DAO (Data Access Object) y DTO (Data Transfer Object) son dos patrones de diseño comúnmente utilizados en la programación, especialmente en la programación orientada a objetos.
