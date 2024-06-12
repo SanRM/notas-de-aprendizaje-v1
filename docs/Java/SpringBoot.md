@@ -166,21 +166,21 @@ public class EmpleadoController {
 
 ## Flujo Interno Detallado
 
-## Inicio:
+### Inicio:
 La aplicación se inicia con `SpringApplication.run(DemoPersistenciaApplication.class, args)`. Esto arranca el contenedor de Spring.
 
-## Escaneo de Componentes:
+### Escaneo de Componentes:
 Spring escanea el paquete base `com.demo.persistencia.demo_persistencia` y sus subpaquetes en busca de clases anotadas.
 
-## Creación y Registro de Beans:
+### Creación y Registro de Beans:
 Spring encuentra las clases anotadas (`EmpleadoServicio`, `EmpleadoController`, etc.) y crea instancias de ellas, estas instancias se registran como beans en el contenedor de Spring.
 
-## Inyección de Dependencias:
+### Inyección de Dependencias:
 Spring examina las clases para encontrar dependencias anotadas con `@Autowired` y resuelve estas dependencias inyectando las instancias necesarias. 
 
 Por ejemplo, `EmpleadoServicio` necesita `EmpleadoRepositorio` y `EmpleadoController` necesita `EmpleadoServicio`. Spring se encarga de proporcionar estas instancias automáticamente.
 
-## Gestión del Ciclo de Vida:
+### Gestión del Ciclo de Vida:
 Spring gestiona el ciclo de vida completo de los beans, asegurándose de que sean creados, inicializados y destruidos correctamente.
 
 </div>
