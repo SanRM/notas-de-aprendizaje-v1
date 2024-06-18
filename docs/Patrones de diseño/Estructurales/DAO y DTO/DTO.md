@@ -2,7 +2,7 @@
 layout: default
 title: DTO (Data Transfer Object)
 parent: DAO y DTO
-grand_parent: Patrones de diseño
+grand_parent: Estructurales
 ---
 
 **DTO (Data Transfer Object)** 

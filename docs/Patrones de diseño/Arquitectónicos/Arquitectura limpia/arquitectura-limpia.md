@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Arquitectura limpia
 parent: Clean code
+grand_parent: Patrones de diseño
 ---
 
 **Arquitectura limpia** 
@@ -24,7 +24,7 @@ Es un arquitectura de software diseñada por Robert C. Martin, que consiste en c
     
 ### **¿Qué implica centralizar una solución en el dominio?**
 
-El dominio es la capa definida por el negocio**.**
+El dominio es la capa definida por el negocio.
 
 - No debe estar atada a ningún concepto técnico
 

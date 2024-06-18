@@ -3,6 +3,7 @@ layout: default
 title: DAO y DTO
 has_children: true
 parent: Patrones de diseño
+grand_parent: Patrones de diseño
 ---
 
 **DAO vs DTO**

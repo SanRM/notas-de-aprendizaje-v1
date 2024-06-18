@@ -2,6 +2,8 @@
 layout: default
 title: Clean code
 has_children: true
+parent: Patrones de diseño
+grand_parent: Arquitectura limpia
 ---
 
 **Clean code**

@@ -2,6 +2,7 @@
 layout: default
 title: Solid
 parent: Clean code
+grand_parent: Arquitectura limpia
 ---
 
 **S.O.L.I.D**

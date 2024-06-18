@@ -11,9 +11,9 @@ has_children: true
 {:toc}
 
 ## **Fuentes de información**
-En esta sección se presentan algunas fuentes de información que pueden ser útiles para aprender más sobre patrones de diseño.
+En este sitio web encontrarás más información sobre los patrones de diseño, sus características, ejemplos y cómo aplicarlos en el diseño de software.
 
-[Refactoring Guru](#){: .btn .btn-blue }
+[Refactoring Guru](https://refactoring.guru/es){: .btn .btn-blue }
 
 ## **Patrones de diseño**
 {: .main-title }
@@ -24,7 +24,7 @@ Los patrones de diseño son una herramienta que nos permite reutilizar solucione
 
 ## **Categorías Principales de Patrones de Diseño**
 
-Los patrones de diseño se agrupan en diferentes categorías según el propósito y el área de aplicación en el diseño de software, estas categorías proporcionan un marco conceptual que ayuda a entender cómo se utilizan los patrones y cuál es su función en el desarrollo de sistemas de software.
+- Los patrones de diseño se agrupan en diferentes categorías según el propósito y el área de aplicación en el diseño de software, estas categorías proporcionan un marco conceptual que ayuda a entender cómo se utilizan los patrones y cuál es su función en el desarrollo de sistemas de software.
 
 | Categoría | Propósito | Características | Ejemplos |
 | :------- | :------- | :------- | :------- |

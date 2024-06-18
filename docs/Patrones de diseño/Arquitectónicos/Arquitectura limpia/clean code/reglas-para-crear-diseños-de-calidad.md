@@ -2,6 +2,7 @@
 layout: default
 title: Reglas para crear diseños de calidad
 parent: Clean code
+grand_parent: Arquitectura limpia
 ---
 
 **Reglas para crear diseños de calidad**
