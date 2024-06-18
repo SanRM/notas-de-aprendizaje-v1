@@ -2,8 +2,7 @@
 layout: default
 title: Clean code
 has_children: true
-parent: Patrones de diseño
-grand_parent: Arquitectura limpia
+permalink: /docs/Patrones%20de%20dise%C3%B1o/Arquitect%C3%B3nicos/Arquitectura%20limpia/clean%20code
 ---
 
 **Clean code**
