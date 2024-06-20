@@ -17,7 +17,7 @@
 title: Notas de aprendizaje
 description: Notas de aprendizaje - Santiago Rodriguez Morales
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://sanrm.github.io/notas-de-aprendizaje/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sanrm.github.io/notas-de-aprendizaje-v1/" # the base hostname & protocol for your site, e.g. http://example.com
 repository: SanRM/notas-de-aprendizaje # for github-metadata
 
 permalink: pretty
